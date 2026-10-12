@@ -173,7 +173,7 @@ p{margin:0 0 1em;max-width:66ch;text-wrap:pretty}
 .knot-more:hover{color:var(--red)}
 .knot-more svg{width:16px;height:16px}
 .phases{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--rule-light);border-bottom:1px solid var(--rule-light)}
-.phase{position:relative;display:flex;align-items:baseline;gap:.8rem;padding:1.1rem 1rem 1.15rem 0;text-align:left;font-family:var(--f-display);font-size:clamp(1.2rem,2vw,1.7rem);color:rgba(252,252,250,.55);transition:color .25s var(--ease)}
+.phase{position:relative;display:flex;align-items:baseline;gap:.8rem;padding:1.1rem 1rem 1.15rem 0;text-align:left;font-family:var(--f-display);font-weight:500;font-size:clamp(1.2rem,2vw,1.7rem);color:rgba(252,252,250,.55);transition:color .25s var(--ease)}
 .phase+.phase{padding-left:1.4rem;border-left:1px solid var(--rule-light)}
 .phase .ph-no{font-family:var(--f-text);font-size:.85rem;font-weight:600}
 .phase::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease-out)}
