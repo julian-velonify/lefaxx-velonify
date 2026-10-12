@@ -163,6 +163,8 @@ A paper-and-two-inks palette: cool off-white ground, near-black blue ink, the Le
 
 ## Typography
 
+Bodoni Moda always runs at its text optical size (`font-variation-settings:"opsz" 11`, set on `html`), never the high-contrast display cut: the hairlines must survive at 6rem and on video. Statement weight 500.
+
 **Display Font:** Bodoni Moda (with Didot, Georgia, serif), self-hosted variable, optical sizing.
 **Body Font:** Schibsted Grotesk (with system-ui, sans-serif), self-hosted, weights 400 to 700.
 
