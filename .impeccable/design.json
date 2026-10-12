@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-12T00:00:00Z",
+  "title": "Design System: Le Faxx Jeans (Velonify pitch)",
+  "extensions": {
+    "colorMeta": {
+      "indigo-950": {
+        "role": "neutral",
+        "displayName": "Overdyed Indigo",
+        "canonical": "oklch(19.4% 0.043 263)",
+        "tonalRamp": [
+          "#050B19",
+          "#1B2435",
+          "#354054",
+          "#515E76",
+          "#73819A",
+          "#98A5BE",
+          "#BECBE3",
+          "#E3EFFF"
+        ]
+      },
+      "indigo-900": {
+        "role": "neutral",
+        "displayName": "Raw Indigo",
+        "canonical": "oklch(22.2% 0.052 263)",
+        "tonalRamp": [
+          "#040A1C",
+          "#192439",
+          "#334059",
+          "#4F5E7A",
+          "#71809F",
+          "#96A5C3",
+          "#BCCBE7",
+          "#E1EFFF"
+        ]
+      },
+      "indigo-700": {
+        "role": "neutral",
+        "displayName": "Rinse Indigo",
+        "canonical": "oklch(32.5% 0.087 265)",
+        "tonalRamp": [
+          "#020726",
+          "#132246",
+          "#2C3E69",
+          "#475C8D",
+          "#687FB3",
+          "#8DA4D6",
+          "#B4CAFA",
+          "#D9EFFF"
+        ]
+      },
+      "indigo-300": {
+        "role": "secondary",
+        "displayName": "Washed Indigo",
+        "canonical": "oklch(71.5% 0.069 265)",
+        "tonalRamp": [
+          "#030921",
+          "#16233F",
+          "#303F60",
+          "#4B5D83",
+          "#6D80A9",
+          "#92A5CC",
+          "#B8CBF1",
+          "#DDEFFF"
+        ]
+      },
+      "anth": {
+        "role": "neutral",
+        "displayName": "Anthracite",
+        "canonical": "oklch(24.8% 0.010 268)",
+        "tonalRamp": [
+          "#0A0B0E",
+          "#222428",
+          "#3E4045",
+          "#5B5D63",
+          "#7E8086",
+          "#A2A4AA",
+          "#C8CAD0",
+          "#ECEEF4"
+        ]
+      },
+      "anth-700": {
+        "role": "neutral",
+        "displayName": "Anthracite Lift",
+        "canonical": "oklch(31.3% 0.013 267)",
+        "tonalRamp": [
+          "#090B0F",
+          "#222429",
+          "#3D4046",
+          "#5A5E65",
+          "#7D8088",
+          "#A1A4AC",
+          "#C7CAD2",
+          "#EBEEF5"
+        ]
+      },
+      "linen": {
+        "role": "neutral",
+        "displayName": "Linen",
+        "canonical": "oklch(96.2% 0.006 85)",
+        "tonalRamp": [
+          "#0C0B09",
+          "#252421",
+          "#41403D",
+          "#5F5D5A",
+          "#82807C",
+          "#A6A4A1",
+          "#CCCAC7",
+          "#F0EEEB"
+        ]
+      },
+      "linen-200": {
+        "role": "neutral",
+        "displayName": "Linen Shadow",
+        "canonical": "oklch(91.6% 0.013 87)",
+        "tonalRamp": [
+          "#0D0B07",
+          "#26241E",
+          "#423F39",
+          "#615D56",
+          "#838078",
+          "#A8A49D",
+          "#CDCAC3",
+          "#F1EEE7"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "oklch(98.5% 0.003 106)",
+        "tonalRamp": [
+          "#0B0B0A",
+          "#242423",
+          "#40403E",
+          "#5E5E5C",
+          "#80807E",
+          "#A5A5A3",
+          "#CACAC9",
+          "#EEEEED"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(20.5% 0.015 267)",
+        "tonalRamp": [
+          "#090B10",
+          "#21242A",
+          "#3C4047",
+          "#5A5E66",
+          "#7C8089",
+          "#A1A5AD",
+          "#C7CAD3",
+          "#EBEEF6"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "oklch(42.4% 0.017 268)",
+        "tonalRamp": [
+          "#090B11",
+          "#21242B",
+          "#3C4048",
+          "#595D67",
+          "#7C808B",
+          "#A0A4AF",
+          "#C6CAD4",
+          "#EBEEF8"
+        ]
+      },
+      "stitch": {
+        "role": "primary",
+        "displayName": "Seam Gold",
+        "canonical": "oklch(71.7% 0.098 73)",
+        "tonalRamp": [
+          "#1C0300",
+          "#3A1B00",
+          "#5B3700",
+          "#7D5412",
+          "#A3773A",
+          "#C69C65",
+          "#EBC38F",
+          "#FFE8B7"
+        ]
+      },
+      "stitch-deep": {
+        "role": "primary",
+        "displayName": "Deep Seam Gold",
+        "canonical": "oklch(57.2% 0.091 70)",
+        "tonalRamp": [
+          "#1C0300",
+          "#3A1B00",
+          "#5A3700",
+          "#7D541E",
+          "#A27742",
+          "#C69C6B",
+          "#EAC395",
+          "#FFE7BD"
+        ]
+      },
+      "moss": {
+        "role": "tertiary",
+        "displayName": "Loden Moss",
+        "canonical": "oklch(50.8% 0.052 124)",
+        "tonalRamp": [
+          "#080E00",
+          "#1F280F",
+          "#3A4428",
+          "#576343",
+          "#798665",
+          "#9EAA8A",
+          "#C4D0B2",
+          "#E8F4D7"
+        ]
+      },
+      "moss-200": {
+        "role": "tertiary",
+        "displayName": "Pale Sage Cloth",
+        "canonical": "oklch(88.8% 0.023 115)",
+        "tonalRamp": [
+          "#0B0C05",
+          "#24251B",
+          "#3F4135",
+          "#5D5F51",
+          "#7F8273",
+          "#A4A698",
+          "#CACCBE",
+          "#EEF0E3"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Form Amber",
+        "canonical": "oklch(80.9% 0.102 63)",
+        "tonalRamp": [
+          "#1F0000",
+          "#3F1700",
+          "#603200",
+          "#844F17",
+          "#AA723D",
+          "#CE9867",
+          "#F3BF91",
+          "#FFE4B9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline (three masked lines), Knot Washed title, contact headline, mobile menu links. Uppercase."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings. Uppercase."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Station and Knot Washed step headings; product captions at 1.5rem."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Proof numbers: spec strip, meter readouts, care-label values."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Section intros, max 56ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, max 68ch, tabular figures."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Origin chips, form labels, meter names, footer heads. Never a kicker above a headline."
+      }
+    },
+    "shadows": [],
+    "depth": [
+      {
+        "name": "nav-solid",
+        "value": "background: rgba(14,26,51,.92); backdrop-filter: saturate(1.2) blur(10px)",
+        "purpose": "Nav once scrolled over content."
+      },
+      {
+        "name": "form-over-warp",
+        "value": "background: rgba(8,16,31,.72); backdrop-filter: blur(6px); border: 1px solid rgba(250,250,248,.14)",
+        "purpose": "Inquiry form over the animated warp canvas."
+      },
+      {
+        "name": "hero-scrim",
+        "value": "linear-gradient(180deg, rgba(8,16,31,.55) 0%, rgba(8,16,31,.15) 30%, rgba(8,16,31,.35) 62%, rgba(8,16,31,.92) 100%), linear-gradient(90deg, rgba(11,21,48,.7) 0%, transparent 65%); plus indigo-700 colour-blend tint at 55%",
+        "purpose": "Legibility over hero video; the only decorative-looking gradient, and it is functional."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "House easing for every CSS transition."
+      },
+      {
+        "name": "button-fill",
+        "value": "transform .7s ease-out; wave crest mask 1.6s linear infinite",
+        "purpose": "Water fill rising in buttons."
+      },
+      {
+        "name": "button-label",
+        "value": "color .45s ease-out",
+        "purpose": "Label colour change as fill rises."
+      },
+      {
+        "name": "magnetic",
+        "value": "gsap quickTo .6s power3.out, pull 0.28 x / 0.38 y",
+        "purpose": "Calls to action drift toward the cursor on fine pointers."
+      },
+      {
+        "name": "underline-draw",
+        "value": "scaleX .5s ease-out, origin right to left",
+        "purpose": "Nav link underline."
+      },
+      {
+        "name": "station-stitch",
+        "value": "stroke-dashoffset .5s ease-out, second stroke +.18s",
+        "purpose": "Cross-stitch drawing on station markers."
+      },
+      {
+        "name": "reveal",
+        "value": "opacity + translateY(28px); images clip-path inset(12% 0) to none",
+        "purpose": "Scroll reveals."
+      },
+      {
+        "name": "knot-pin",
+        "value": "ScrollTrigger pin, scrub over 2.6 viewport heights",
+        "purpose": "Knot Washed drum; slider bound to scroll."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transitions .01ms; thread fully drawn; WebGL renders end state once; warp canvas one static frame",
+        "purpose": "Every motion has a static state."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs",
+        "value": "620px"
+      },
+      {
+        "name": "sm",
+        "value": "720px"
+      },
+      {
+        "name": "md",
+        "value": "820px"
+      },
+      {
+        "name": "nav",
+        "value": "1080px"
+      },
+      {
+        "name": "lg",
+        "value": "1180px"
+      }
+    ],
+    "thread": {
+      "stitch": "stroke seam gold, 1.7px, dash 11 7, butt caps, doubled 5px apart",
+      "ghost": "stroke seam gold, 1px, dash 2 16, opacity .35",
+      "needle": "6px seam-gold square",
+      "focus": "outline 2px seam gold, offset 3px"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button (water fill)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Seam-gold call to action; a paper fill with a moving wave crest rises on hover/focus. Magnetic on fine pointers.",
+      "html": "<div style=\"display:flex;gap:1rem;padding:2rem;background:#0E1A33\"><a href=\"#\" class=\"ds-btn ds-btn-primary\"><span class=\"ds-fill\"></span><span>Projekt anfragen</span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" width=\"18\" height=\"18\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a></div>",
+      "css": ".ds-btn{position:relative;display:inline-flex;align-items:center;gap:.8rem;padding:1.05rem 1.6rem;font-family:var(--f-text,Inter,system-ui,sans-serif);font-weight:600;font-size:.98rem;letter-spacing:.01em;text-decoration:none;overflow:hidden;isolation:isolate;border:1px solid currentColor;border-radius:0;cursor:pointer;transition:color .45s cubic-bezier(.16,1,.3,1),border-color .45s cubic-bezier(.16,1,.3,1)}.ds-btn .ds-fill{position:absolute;inset:0;z-index:-1;transform:translateY(calc(100% + 14px));transition:transform .7s cubic-bezier(.16,1,.3,1)}.ds-btn .ds-fill::before{content:'';position:absolute;left:0;right:0;top:-11px;height:12px;background:inherit;-webkit-mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 12' preserveAspectRatio='none'%3E%3Cpath d='M0 6 C 20 0 40 0 60 6 S 100 12 120 6 V12 H0Z'/%3E%3C/svg%3E\") 0 0/120px 12px repeat-x;mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 12' preserveAspectRatio='none'%3E%3Cpath d='M0 6 C 20 0 40 0 60 6 S 100 12 120 6 V12 H0Z'/%3E%3C/svg%3E\") 0 0/120px 12px repeat-x;animation:ds-wave 1.6s linear infinite}@keyframes ds-wave{to{-webkit-mask-position:120px 0;mask-position:120px 0}}.ds-btn:hover .ds-fill,.ds-btn:focus-visible .ds-fill{transform:translateY(0)}.ds-btn:focus-visible{outline:2px solid #C99A5B;outline-offset:3px}.ds-btn svg{flex:none;transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-btn:hover svg{transform:translateX(4px)}.ds-btn-primary{background:#C99A5B;border-color:#C99A5B;color:#0A1428}.ds-btn-primary .ds-fill{background:#FAFAF8}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action on dark stages; paper fill rises, text turns indigo.",
+      "html": "<div style=\"padding:2rem;background:#0E1A33\"><a href=\"#\" class=\"ds-btn ds-btn-ghost\"><span class=\"ds-fill\"></span><span>Knot Washed® ansehen</span></a></div>",
+      "css": ".ds-btn{position:relative;display:inline-flex;align-items:center;gap:.8rem;padding:1.05rem 1.6rem;font-family:var(--f-text,Inter,system-ui,sans-serif);font-weight:600;font-size:.98rem;letter-spacing:.01em;text-decoration:none;overflow:hidden;isolation:isolate;border:1px solid currentColor;border-radius:0;cursor:pointer;transition:color .45s cubic-bezier(.16,1,.3,1),border-color .45s cubic-bezier(.16,1,.3,1)}.ds-btn .ds-fill{position:absolute;inset:0;z-index:-1;transform:translateY(calc(100% + 14px));transition:transform .7s cubic-bezier(.16,1,.3,1)}.ds-btn .ds-fill::before{content:'';position:absolute;left:0;right:0;top:-11px;height:12px;background:inherit;-webkit-mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 12' preserveAspectRatio='none'%3E%3Cpath d='M0 6 C 20 0 40 0 60 6 S 100 12 120 6 V12 H0Z'/%3E%3C/svg%3E\") 0 0/120px 12px repeat-x;mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 12' preserveAspectRatio='none'%3E%3Cpath d='M0 6 C 20 0 40 0 60 6 S 100 12 120 6 V12 H0Z'/%3E%3C/svg%3E\") 0 0/120px 12px repeat-x;animation:ds-wave 1.6s linear infinite}@keyframes ds-wave{to{-webkit-mask-position:120px 0;mask-position:120px 0}}.ds-btn:hover .ds-fill,.ds-btn:focus-visible .ds-fill{transform:translateY(0)}.ds-btn:focus-visible{outline:2px solid #C99A5B;outline-offset:3px}.ds-btn svg{flex:none;transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-btn:hover svg{transform:translateX(4px)}.ds-btn-ghost{color:#FAFAF8;border-color:rgba(250,250,248,.45)}.ds-btn-ghost .ds-fill{background:#FAFAF8}.ds-btn-ghost:hover,.ds-btn-ghost:focus-visible{color:#0A1428;border-color:#FAFAF8}"
+    },
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Action on light surfaces; indigo fill rises, text turns paper.",
+      "html": "<div style=\"padding:2rem;background:#D9DCCB\"><a href=\"#\" class=\"ds-btn ds-btn-ink\"><span class=\"ds-fill\"></span><span>Zur Nachhaltigkeit</span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" width=\"18\" height=\"18\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a></div>",
+      "css": ".ds-btn{position:relative;display:inline-flex;align-items:center;gap:.8rem;padding:1.05rem 1.6rem;font-family:var(--f-text,Inter,system-ui,sans-serif);font-weight:600;font-size:.98rem;letter-spacing:.01em;text-decoration:none;overflow:hidden;isolation:isolate;border:1px solid currentColor;border-radius:0;cursor:pointer;transition:color .45s cubic-bezier(.16,1,.3,1),border-color .45s cubic-bezier(.16,1,.3,1)}.ds-btn .ds-fill{position:absolute;inset:0;z-index:-1;transform:translateY(calc(100% + 14px));transition:transform .7s cubic-bezier(.16,1,.3,1)}.ds-btn .ds-fill::before{content:'';position:absolute;left:0;right:0;top:-11px;height:12px;background:inherit;-webkit-mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 12' preserveAspectRatio='none'%3E%3Cpath d='M0 6 C 20 0 40 0 60 6 S 100 12 120 6 V12 H0Z'/%3E%3C/svg%3E\") 0 0/120px 12px repeat-x;mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 12' preserveAspectRatio='none'%3E%3Cpath d='M0 6 C 20 0 40 0 60 6 S 100 12 120 6 V12 H0Z'/%3E%3C/svg%3E\") 0 0/120px 12px repeat-x;animation:ds-wave 1.6s linear infinite}@keyframes ds-wave{to{-webkit-mask-position:120px 0;mask-position:120px 0}}.ds-btn:hover .ds-fill,.ds-btn:focus-visible .ds-fill{transform:translateY(0)}.ds-btn:focus-visible{outline:2px solid #C99A5B;outline-offset:3px}.ds-btn svg{flex:none;transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-btn:hover svg{transform:translateX(4px)}.ds-btn-ink{color:#14171E;border-color:#14171E}.ds-btn-ink .ds-fill{background:#0E1A33}.ds-btn-ink:hover,.ds-btn-ink:focus-visible{color:#FAFAF8}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Solid-state nav: square wordmark with gold XX, gold draw-in underlines, square DE/EN/TR toggle.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-mark\" href=\"#\">LE FA<span>XX</span></a><ul><li><a href=\"#\">Unternehmen</a></li><li><a href=\"#\">Produktion</a></li><li><a href=\"#\">Knot Washed®</a></li><li><a href=\"#\">Kontakt</a></li></ul><div class=\"ds-lang\"><button aria-pressed=\"true\">DE</button><button aria-pressed=\"false\">EN</button><button aria-pressed=\"false\">TR</button></div></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;height:76px;padding:0 32px;background:rgba(14,26,51,.92);color:#FAFAF8;font-family:Inter,system-ui,sans-serif}.ds-mark{font-family:'Big Shoulders Display','Arial Narrow',sans-serif;font-weight:900;font-size:1.7rem;letter-spacing:.02em;color:inherit;text-decoration:none}.ds-mark span{color:#C99A5B}.ds-nav ul{display:flex;gap:2rem;list-style:none;margin:0;padding:0;font-size:.92rem;font-weight:500}.ds-nav ul a{position:relative;padding:.4rem 0;color:inherit;text-decoration:none}.ds-nav ul a::after{content:'';position:absolute;left:0;right:0;bottom:0;height:1px;background:#C99A5B;transform:scaleX(0);transform-origin:right;transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-nav ul a:hover::after,.ds-nav ul a:focus-visible::after{transform:scaleX(1);transform-origin:left}.ds-nav a:focus-visible,.ds-lang button:focus-visible{outline:2px solid #C99A5B;outline-offset:3px}.ds-lang{display:flex;border:1px solid rgba(250,250,248,.3)}.ds-lang button{font:600 .74rem/1 Inter,system-ui,sans-serif;letter-spacing:.1em;padding:.42rem .55rem;min-width:38px;min-height:34px;background:none;border:0;border-radius:0;color:inherit;cursor:pointer;transition:background .3s,color .3s}.ds-lang button[aria-pressed=true]{background:#FAFAF8;color:#0A1428}.ds-lang button[aria-pressed=false]:hover{background:rgba(250,250,248,.12)}"
+    },
+    {
+      "name": "Underline Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Boxless field on the dark contact stage: tracked label, paper hairline, gold caret and gold underline on focus; amber on error.",
+      "html": "<div style=\"padding:2rem;background:#0E1A33;display:grid;gap:1.1rem;max-width:420px\"><div class=\"ds-field\"><label for=\"ds-n\">Marke / Unternehmen</label><input id=\"ds-n\" placeholder=\"Ihre Marke\"></div><div class=\"ds-field ds-err\"><label for=\"ds-m\">E-Mail</label><input id=\"ds-m\" value=\"kein-at-zeichen\"><span>Bitte eine gültige E-Mail angeben.</span></div></div>",
+      "css": ".ds-field{display:grid;gap:.35rem;font-family:Inter,system-ui,sans-serif}.ds-field label{font-size:.76rem;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:rgba(250,250,248,.75)}.ds-field input{background:transparent;border:0;border-bottom:1px solid rgba(250,250,248,.35);border-radius:0;padding:.6rem 0;min-height:44px;color:#FAFAF8;caret-color:#C99A5B;font:inherit;transition:border-color .3s}.ds-field input::placeholder{color:rgba(250,250,248,.42)}.ds-field input:focus{outline:none;border-color:#C99A5B}.ds-err input{border-color:#F0B27A}.ds-err span{font-size:.8rem;color:#F0B27A}"
+    },
+    {
+      "name": "Origin Chip",
+      "kind": "chip",
+      "refersTo": "origin-chip",
+      "description": "Names where a production step happens; square deep-gold dot.",
+      "html": "<div style=\"padding:2rem;background:#FAFAF8;display:flex;gap:.6rem\"><span class=\"ds-origin\">Istanbul · HQ</span><span class=\"ds-origin\">Sivas · Fabrik</span></div>",
+      "css": ".ds-origin{display:inline-flex;gap:.5rem;align-items:center;font:600 .74rem/1.3 Inter,system-ui,sans-serif;letter-spacing:.13em;text-transform:uppercase;color:#14171E;border:1px solid #E7E3DA;padding:.35rem .6rem;background:#F4F2EE}.ds-origin::before{content:'';width:6px;height:6px;background:#9A6E37}"
+    },
+    {
+      "name": "Station (stitched marker)",
+      "kind": "custom",
+      "refersTo": "station-marker",
+      "description": "Numbered production station: square marker on the thread lane that cross-stitches itself closed when the thread arrives (hover to preview).",
+      "html": "<div class=\"ds-station\"><span class=\"ds-marker\"><svg viewBox=\"0 0 13 13\"><line x1=\"1\" y1=\"1\" x2=\"12\" y2=\"12\"/><line x1=\"12\" y1=\"1\" x2=\"1\" y2=\"12\"/></svg></span><div><span class=\"ds-no\">03</span><h3>Zuschnitt</h3><p>Lagenweise geschnitten in Sivas.</p></div></div>",
+      "css": ".ds-station{display:flex;gap:1.5rem;align-items:flex-start;padding:2rem;background:#FAFAF8;color:#14171E;font-family:Inter,system-ui,sans-serif}.ds-marker{position:relative;flex:none;width:22px;height:22px;margin-top:4px;background:#FAFAF8;border:1.5px solid #14171E;transition:border-color .5s cubic-bezier(.16,1,.3,1)}.ds-marker svg{position:absolute;inset:3px;width:13px;height:13px}.ds-marker line{stroke:#9A6E37;stroke-width:2.2;stroke-dasharray:20;stroke-dashoffset:20;transition:stroke-dashoffset .5s cubic-bezier(.16,1,.3,1)}.ds-marker line+line{transition-delay:.18s}.ds-station:hover .ds-marker{border-color:#9A6E37}.ds-station:hover .ds-marker line{stroke-dashoffset:0}.ds-no{display:block;font:800 1.05rem/1 'Big Shoulders Display','Arial Narrow',sans-serif;letter-spacing:.08em;color:#9A6E37;margin-bottom:.5rem}.ds-station h3{font:800 2rem/.95 'Big Shoulders Display','Arial Narrow',sans-serif;text-transform:uppercase;margin:0 0 .6rem}.ds-station p{margin:0;color:#4A4E58}"
+    },
+    {
+      "name": "Hangtag",
+      "kind": "card",
+      "refersTo": "hangtag",
+      "description": "Paper tag on a deep-gold string over a product image; swings on hover.",
+      "html": "<div class=\"ds-piece\"><div class=\"ds-img\"></div><div class=\"ds-tag\"><b>Straight</b><dl><dt>Stoff</dt><dd>13,5 oz Denim</dd><dt>Wäsche</dt><dd>Knot Washed®</dd></dl></div></div>",
+      "css": ".ds-piece{position:relative;width:220px;padding-top:20px}.ds-img{aspect-ratio:3/4;background:#E7E3DA}.ds-tag{position:absolute;right:10px;top:32px;width:132px;background:#FAFAF8;color:#14171E;padding:1.6rem .8rem .8rem;border:1px solid #14171E;transform:rotate(3deg);transform-origin:50% 0;transition:transform .8s cubic-bezier(.16,1,.3,1);font-family:Inter,system-ui,sans-serif}.ds-piece:hover .ds-tag{transform:rotate(-2deg)}.ds-tag::before{content:'';position:absolute;top:9px;left:50%;width:9px;height:9px;margin-left:-4.5px;border:1.5px solid #14171E;background:#E7E3DA}.ds-tag::after{content:'';position:absolute;bottom:100%;left:50%;width:1.5px;height:26px;background:#9A6E37;transform:translateX(-50%) translateY(13px)}.ds-tag b{display:block;font:900 1.05rem/1 'Big Shoulders Display','Arial Narrow',sans-serif;text-transform:uppercase;margin-bottom:.4rem}.ds-tag dl{margin:0;font-size:.64rem;line-height:1.35;display:grid;gap:.25rem}.ds-tag dt{color:#4A4E58;text-transform:uppercase;letter-spacing:.08em}.ds-tag dd{margin:0;font-weight:600}"
+    },
+    {
+      "name": "Spec Strip",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Hero-foot row of proof figures divided by paper hairlines.",
+      "html": "<div class=\"ds-spec\"><ul><li><b>2000</b><span>am Markt seit</span></li><li><b>600+</b><span>Mitarbeitende</span></li><li><b>150.000</b><span>Teile pro Monat</span></li><li><b>IST · SVS</b><span>Istanbul HQ · Fabrik Sivas</span></li></ul></div>",
+      "css": ".ds-spec{background:#0E1A33;color:#FAFAF8;border-top:1px solid rgba(250,250,248,.22);padding:0 24px;font-family:Inter,system-ui,sans-serif;font-variant-numeric:tabular-nums}.ds-spec ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr)}.ds-spec li{padding:1.1rem 1rem 1.3rem 0;display:flex;flex-direction:column;gap:.1rem}.ds-spec li+li{padding-left:1rem;border-left:1px solid rgba(250,250,248,.16)}.ds-spec b{font:800 2rem/1 'Big Shoulders Display','Arial Narrow',sans-serif;letter-spacing:.01em}.ds-spec span{font-size:.8rem;color:rgba(250,250,248,.72)}"
+    },
+    {
+      "name": "Consumption Meter",
+      "kind": "custom",
+      "refersTo": "meter-bar",
+      "description": "Knot Washed meter: figure readout over a 6px bar, washed indigo at full, seam gold once halved.",
+      "html": "<div class=\"ds-meters\"><div class=\"ds-meter\"><div class=\"ds-top\"><span>Wasser</span><b>100 %</b></div><div class=\"ds-bar\"><i></i></div></div><div class=\"ds-meter ds-low\"><div class=\"ds-top\"><span>Energie</span><b>50 %</b></div><div class=\"ds-bar\"><i style=\"width:50%\"></i></div></div></div>",
+      "css": ".ds-meters{display:grid;grid-template-columns:1fr 1fr;gap:2rem;padding:2rem;background:#0E1A33;font-family:Inter,system-ui,sans-serif}.ds-meter{display:flex;flex-direction:column;gap:.45rem}.ds-top{display:flex;justify-content:space-between;align-items:baseline;font-size:.8rem;color:rgba(250,250,248,.75);letter-spacing:.08em;text-transform:uppercase;font-weight:600}.ds-top b{font:800 1.9rem/1 'Big Shoulders Display','Arial Narrow',sans-serif;color:#FAFAF8;letter-spacing:0}.ds-bar{height:6px;background:rgba(250,250,248,.12);position:relative}.ds-bar i{position:absolute;inset:0 auto 0 0;width:100%;background:#8EA3CF;transition:background .4s,width .6s cubic-bezier(.16,1,.3,1)}.ds-low .ds-bar i{background:#C99A5B}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Contrast Seam",
+    "overview": "A denim factory told as one continuous double-needle seam. A gold contrast stitch, the jeans' own topstitch, leaves the primary call to action, runs down the page, cross-stitches each numbered production station closed as it passes, threads through the eyelet of a care label and the strings of hangtags, and ends at the inquiry form. Everything else is quiet working material: deep indigo and anthracite as stages, linen as the workbench, paper as the station sheet. The thread is the only thing allowed to glint.\n\nDensity is that of a cutting room: heavy condensed uppercase headlines set tight, small tracked labels, hairline 1px rules dividing data the way a spec sheet does. Objects from the garment trade (hangtags, a care label, origin chips, a spec strip) carry the facts instead of cards or counter tiles. Corners are square-cut like fabric off the cutting bench; nothing casts a shadow.\n\nMotion is mechanical and fabric-like: water fills rising inside buttons, magnetic pull on calls to action, a needle point travelling along the stitch path, warp threads parting around the pointer, and one pinned WebGL wash drum where pumice particles become recycled knots and the water halves. All of it collapses to static under reduced motion.",
+    "keyCharacteristics": [
+      "One gold seam as thread and sole accent; earth tones support, never compete.",
+      "Indigo / anthracite stages alternate with linen, paper and moss-pale working surfaces.",
+      "Condensed uppercase display (800–900) over a neutral grotesk body with tabular figures.",
+      "Zero radius, zero shadows, 1px hairlines; depth comes from surface alternation and physical overlap.",
+      "Facts live on garment objects: hangtags, care label, origin chips, spec strip, numbered stations."
+    ],
+    "rules": [
+      {
+        "name": "The One Thread Rule",
+        "body": "Seam gold is the only accent. It marks the thread, the primary action, focus and the \"good\" end of data, and it never fills an area larger than a button or a pin.",
+        "section": "colors"
+      },
+      {
+        "name": "The Deep Thread Rule",
+        "body": "On linen or paper, small gold elements switch to deep seam gold; bright seam gold is reserved for dark stages and fills.",
+        "section": "colors"
+      },
+      {
+        "name": "The Stage and Bench Rule",
+        "body": "Sections alternate between dark stages (indigo-900, anth, indigo-950) and light working surfaces (linen, paper, moss-200); two adjacent sections never share a surface.",
+        "section": "colors"
+      },
+      {
+        "name": "The Versal Rule",
+        "body": "Big Shoulders is only ever uppercase at 800–900 with leading under 1; it never sets running text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Spec Sheet Rule",
+        "body": "Every number is tabular, and a proof number is set in the figure style, not in body weight.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Cloth Rule",
+        "body": "Nothing casts a shadow. If an element needs to come forward, it changes surface, gains a 1px rule, or overlaps physically.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Square Cut Rule",
+        "body": "No radius, no circles in UI chrome. A hole, a pin or a needle is a square.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** keep seam gold as the single accent: thread, primary action, focus outline, selection, pins and the \"good\" data state.",
+      "**Do** switch to deep seam gold for small gold marks on linen or paper.",
+      "**Do** set every headline in Big Shoulders Display uppercase at 800–900 with leading under 1.",
+      "**Do** carry facts on garment objects (hangtag, care label, origin chip, spec strip, numbered stations) divided by 1px hairlines.",
+      "**Do** alternate dark stages and light working surfaces from section to section.",
+      "**Do** ease every transition with the house ease-out and give every motion a static reduced-motion state."
+    ],
+    "donts": [
+      "**Don't** round any corner or draw a circle in UI chrome; holes, pins and needles are squares.",
+      "**Don't** add box-shadows; depth is surface change, hairline or physical overlap.",
+      "**Don't** use gradients as decoration; the only gradients are the video legibility scrim and the data slider track.",
+      "**Don't** draw the thread in indigo; it disappears on the indigo stages (confirmed amendment, 12.10.2026).",
+      "**Don't** let earth tones (moss) act as a second accent beside the gold.",
+      "**Don't** set running text or labels in the display face."
+    ]
+  }
+}
