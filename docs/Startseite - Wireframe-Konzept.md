@@ -20,7 +20,7 @@ Die Botschaft ist dieselbe wie bei Le Faxx: **alles in einer Hand, ohne Unterbre
 
 | | |
 |---|---|
-| **Sieht** | Links die Wortmarke „LE FAXX“ (XX in Nahtgold), mittig 5 Links: Unternehmen, Produktion, Knot Washed®, Produkte, Kontakt. Rechts: Sprachschalter DE / EN / TR und der Button „Projekt anfragen“. |
+| **Sieht** | Links die Wortmarke „LE FAXX“ (XX in Nahtgold), mittig 5 Links: Unternehmen, Produktion, Knot Washed®, Produkte, Kontakt. Rechts: Sprachschalter EN / DE / TR und der Button „Projekt anfragen“. |
 | **Verhalten** | Transparent über dem Hero, wird beim Scrollen zu einem Indigo-Balken mit leichter Unschärfe. Blendet sich beim Runterscrollen aus und beim Hochscrollen wieder ein. Mobil: Burger öffnet ein Vollbild-Menü in Indigo, das sich wie ein Rollo von oben aufzieht. |
 | **Sprache** | Der Wechsel passiert sofort ohne Neuladen und wird gespeichert. Die Startsprache folgt dem Browser, und `?lang=tr` ist als direkter Link möglich. |
 
@@ -53,19 +53,20 @@ Die Botschaft ist dieselbe wie bei Le Faxx: **alles in einer Hand, ohne Unterbre
 | **Animation (Signatur)** | Der Faden wird beim Scrollen gezeichnet, und seine Spitze läuft auf etwa 60 % Bildschirmhöhe mit. Erreicht er eine Station, wird ihre Marke mit einem Kreuzstich „vernäht“. Bilder öffnen sich mit einem Clip-Reveal und bewegen sich leicht parallax. |
 | **Mobil** | Der Faden läuft am linken Rand, die Stationen stehen untereinander. |
 
-## Sektion 5 · Knot Washed® (gepinnt, WebGL)
+## Sektion 5 · Knot Washed® (Demo in 3 Phasen, WebGL)
 
-Das Herzstück. Die Sektion bleibt etwa 2,6 Bildschirmhöhen lang stehen, und der Scroll steuert die Geschichte.
+Das Herzstück, als klickbare Demo statt Scroll-Animation. Die Sektion ist einen Bildschirm hoch, die Besucher steuern selbst.
 
-| Phase | Was passiert | Text |
+| Phase (Button) | Was passiert | Text |
 |---|---|---|
-| **1 · Bimsstein** | Rund 20.000 Partikel (mobil 9.000): grau-poröse Steinbrocken taumeln in einem blauen Wasserring (der Trommel). | „Konventionell: Bimsstein.“ Der Stein zerfällt, das Wasser wird zu Schlamm. |
-| **2 · Knoten** | Die Steine lösen sich auf, und die Partikel ordnen sich zu einem goldenen Knoten aus der Farbe des Fadens. | „Unsere Antwort: Knoten.“ Recycelter Kunststoff, entwickelt bei Le Faxx. |
-| **3 · Die Hälfte** | Genau jede zweite Wassereinheit fließt nach unten ab und verschwindet. **Die Partikeldichte ist der Beweis.** | „Die Hälfte.“ 50 % weniger Wasser, Energie, CO₂. |
+| **01 · Bimsstein** | Rund 20.000 Partikel (mobil 9.000): grau-poröse Steinbrocken taumeln in einem blauen Wasserring (der Trommel). | „Konventionell: Bimsstein.“ Der Stein zerfällt, das Wasser wird zu Schlamm. |
+| **02 · Knoten** | Die Steine lösen sich auf, und die Partikel ordnen sich zu einem goldenen Knoten aus der Farbe des Fadens. | „Unsere Antwort: Knoten.“ Recycelter Kunststoff, entwickelt bei Le Faxx. |
+| **03 · Die Hälfte** | Genau jede zweite Wassereinheit fließt nach unten ab und verschwindet. **Die Partikeldichte ist der Beweis.** | „Die Hälfte.“ 50 % weniger Wasser, Energie, CO₂. |
 
-- **Vorher/Nachher-Slider** (Briefing-Wunsch): Unten läuft der Regler „Bimsstein ⟷ Knot Washed®“ mit. Ziehen am Regler scrollt die Seite an die passende Stelle, sodass Scroll und Regler immer synchron bleiben.
+- **Steuerung:** drei Buttons (01 · 02 · 03), jeder Wechsel animiert in rund 1,8 Sekunden. Eine Goldlinie im aktiven Button zeigt den Fortschritt. Pfeiltasten wechseln die Phase.
 - **Messbalken:** Wasser, Energie und CO₂ fallen live von 100 % auf 50 % und wechseln dabei von Blau auf Nahtgold.
-- **Technik:** three.js-Partikelschwarm nach dem Prinzip von particles.casberry.in (Zielpositionen, Morph im Shader, keine Speicheranlage pro Frame). Es wird nur gerendert, solange die Sektion sichtbar ist.
+- **Weiter:** Der Link „Alles über Knot Washed®“ führt zur Unterseite.
+- **Technik:** three.js-Partikelschwarm nach dem Prinzip von particles.casberry.in. Es wird nur gerendert, solange die Sektion sichtbar ist. Der Code liegt in `assets/knot.js` und läuft auf Start- und Unterseite.
 
 ## Sektion 6 · Nachhaltigkeit als Etikett
 
@@ -105,6 +106,18 @@ Das Herzstück. Die Sektion bleibt etwa 2,6 Bildschirmhöhen lang stehen, und de
 Riesige Wortmarke „LE FAXX“, Adressen Istanbul und Sivas, Seitenlinks, Rechtliches. Unten: © Le Faxx Jeans · **Made by [Velonify](https://velonify.de)**.
 
 ---
+
+## Unterseite · Knot Washed® (`/knot-washed/`)
+
+1. **Hero:** Waschtrommel-Bild in Indigo, knot-washed-Logo, Headline „Gleicher Look. Halber Verbrauch.“, Buttons „Muster anfragen“ und „Zur Demo“. Darunter −50 % Wasser · Energie · CO₂ mit Vergleichsbasis.
+2. **Das Problem:** Bimsstein zerfällt, Schlamm, Spülen, Nachfüllen, Entsorgen.
+3. **Demo:** dieselbe 3-Phasen-Demo wie auf der Startseite („Sehen Sie den Unterschied.“).
+4. **So funktioniert's:** vier Schritte (Knoten statt Stein, Abrieb für den Look, kein Steinschlamm, halber Verbrauch), als vereinfacht gekennzeichnet.
+5. **Für Ihre Kollektion:** Pflegeetikett plus Muster, Etikett-Nutzung, Kapazität.
+6. **FAQ:** vier Fragen (Look, Vergleichsbasis, Markenkommunikation, seit wann).
+7. **Abschluss:** „Sehen Sie es am Muster.“ mit Anfrage-Button.
+
+„Seit 2020“ stammt aus einem Bericht der TextilWirtschaft (Umstellung Mitte 2020) und sollte mit Le Faxx bestätigt werden.
 
 ## Buttons & Mikro-Interaktionen
 
