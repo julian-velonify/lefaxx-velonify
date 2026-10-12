@@ -121,7 +121,7 @@ Riesige Wortmarke „LE FAXX“, Adressen Istanbul und Sivas, Seitenlinks, Recht
 
 ## Vor der Präsentation zu klären / zu ersetzen
 
-1. **Logo:** lefaxx.com ist hinter einer Cloudflare-Prüfung, das Logo konnte nicht übernommen werden. „LE FAXX“ ist ein typografischer Platzhalter.
+1. **Logo:** Die echten Logos (le Faxx jeans, knot washed) sind aus einem Screenshot der Website freigestellt (`assets/`). Sie sind nur 241 px breit aufgelöst; für die finale Seite bitte die Original-Dateien (SVG) von Le Faxx anfordern.
 2. **Bilder & Video:** Alle Bilder sind Stock-Platzhalter von Unsplash und Pexels (siehe unten). Für den Pitch ideal wären echte Aufnahmen aus Sivas: Näherei, Wäscherei, die Knoten selbst.
 3. **Fakten bestätigen:** Welche Schritte genau in Sivas und welche in Istanbul passieren (v. a. Wäscherei), außerdem Kategorien, Non-Denim-Angebot, E-Mail-Adresse und Adressen.
 4. **Knot Washed®:** Die −50 %-Werte stammen aus dem Briefing. Vor der Live-Schaltung sollten sie mit einer Quelle oder Messung belegt werden, und der Markenstatus (®) sollte geprüft sein.

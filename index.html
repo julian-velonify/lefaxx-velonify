@@ -95,7 +95,9 @@ p{margin:0 0 1em;max-width:68ch}
 .nav-in{display:flex;align-items:center;justify-content:space-between;gap:var(--s3);height:76px}
 .nav.is-solid{background:rgba(11,21,48,.92);-webkit-backdrop-filter:saturate(1.2) blur(10px);backdrop-filter:saturate(1.2) blur(10px)}
 .nav.is-hidden{transform:translateY(-100%)}
-.mark{font-family:var(--f-display);font-weight:900;font-size:1.7rem;letter-spacing:.02em;text-decoration:none;display:inline-block;line-height:1;white-space:nowrap}
+.mark{display:inline-block;line-height:0}
+.mark img{height:44px;width:auto}
+@media (max-width:820px){.mark img{height:38px}}
 .mark .xx{color:var(--stitch)}
 .nav-links{display:flex;gap:clamp(1rem,2.2vw,2.2rem);list-style:none;margin:0;padding:0;font-size:.92rem;font-weight:500}
 .nav-links a{text-decoration:none;position:relative;padding:.4rem 0}
@@ -200,7 +202,9 @@ p{margin:0 0 1em;max-width:68ch}
 .knot canvas{position:absolute;inset:0;width:100%;height:100%}
 .knot-fallback{position:absolute;inset:0;display:grid;place-items:center;opacity:.25}
 .knot-ui{position:relative;z-index:3;height:100%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto 1fr auto;padding-top:96px;padding-bottom:clamp(20px,4vh,40px)}
-.knot-title{grid-column:1 / -1;font-size:clamp(3rem,8.5vw,6rem);color:var(--paper)}
+.knot-head{grid-column:1 / -1;display:flex;align-items:center;justify-content:space-between;gap:1.5rem}
+.knot-logo{height:clamp(52px,6vw,84px);width:auto;flex:none}
+.knot-title{font-size:clamp(3rem,8.5vw,6rem);color:var(--paper)}
 .knot-title sup{font-size:.32em;vertical-align:top;position:relative;top:.25em;color:var(--stitch)}
 .knot-steps{grid-column:1;grid-row:2;position:relative;align-self:center;min-height:15rem}
 .kstep{position:absolute;inset:0 0 auto 0;opacity:0;transform:translateY(16px);transition:opacity .6s var(--ease-out),transform .6s var(--ease-out);max-width:30rem}
@@ -221,8 +225,9 @@ p{margin:0 0 1em;max-width:68ch}
 .compare input[type=range]::-moz-range-track{height:2px;background:linear-gradient(90deg,var(--indigo-300),var(--stitch))}
 .compare input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:26px;height:26px;margin-top:-12px;background:var(--paper);border:2px solid var(--stitch)}
 .compare input[type=range]::-moz-range-thumb{width:22px;height:22px;background:var(--paper);border:2px solid var(--stitch);border-radius:0}
-.knot-note{position:absolute;right:var(--gutter);top:104px;z-index:3;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(251,250,247,.5)}
+.knot-note{position:absolute;right:var(--gutter);top:calc(96px + clamp(60px,7vw,96px));z-index:3;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(251,250,247,.5)}
 @media (max-width:820px){
+  .knot-logo{display:none}
   .knot-ui{grid-template-columns:1fr;grid-template-rows:auto 1fr auto auto}
   .knot-steps{grid-row:3;min-height:12.5rem;align-self:end}
   .knot-meters{grid-row:4;grid-template-columns:repeat(3,1fr)}
@@ -246,7 +251,8 @@ p{margin:0 0 1em;max-width:68ch}
 .label{position:relative;z-index:5;width:min(300px,78vw);background:var(--paper);color:var(--ink);padding:3.4rem 1.6rem 2rem;transform-origin:50% 0;border:1px solid rgba(20,23,30,.28);will-change:transform}
 .label::before{content:"";position:absolute;inset:8px;border:1px dashed rgba(20,23,30,.22);pointer-events:none}
 .label .eyelet{position:absolute;top:16px;left:50%;width:16px;height:16px;margin-left:-8px;border:2px solid var(--anth);background:var(--moss-200);z-index:6}
-.label h3{font-family:var(--f-display);font-weight:900;text-transform:uppercase;font-size:2rem;line-height:.95;text-align:center;margin:0 0 .3rem}
+.label h3{margin:0 0 .6rem;display:flex;justify-content:center}
+.label h3 img{height:62px;width:auto}
 .label .sub{text-align:center;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;margin:0 auto 1.2rem;color:var(--ink-soft)}
 .label dl{margin:0;display:grid;gap:0;border-top:1px solid var(--ink)}
 .label dl div{display:flex;justify-content:space-between;padding:.6rem 0;border-bottom:1px solid rgba(20,23,30,.2);font-size:.86rem}
@@ -330,6 +336,8 @@ form.is-sent .form-ok{display:block}
 
 /* ---------- footer ---------- */
 .foot{background:var(--indigo-950);color:rgba(251,250,247,.8);padding:var(--s6) 0 var(--s3);font-size:.92rem}
+.foot-brand{display:flex;align-items:center;gap:clamp(1.5rem,4vw,3.5rem);margin:0 0 var(--s5);flex-wrap:wrap}
+.foot-brand img{height:clamp(64px,8vw,100px);width:auto}
 .foot-mark{font-family:var(--f-display);font-weight:900;font-size:clamp(4.5rem,19vw,16rem);line-height:.8;color:var(--paper);letter-spacing:-.01em;margin:0 0 var(--s5);white-space:nowrap}
 .foot-mark .xx{color:var(--stitch)}
 .foot-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--s4);padding-bottom:var(--s5);border-bottom:1px solid rgba(251,250,247,.14)}
@@ -361,7 +369,7 @@ form.is-sent .form-ok{display:block}
 
 <header class="nav" id="nav">
   <div class="wrap nav-in">
-    <a class="mark" href="#top" aria-label="Le Faxx Jeans, Startseite">LE&nbsp;FA<span class="xx">XX</span></a>
+    <a class="mark" href="#top"><img src="assets/lefaxx-logo.png" alt="Le Faxx Jeans" width="234" height="106"></a>
     <nav aria-label="Hauptnavigation" data-i18n-aria="navAria">
       <ul class="nav-links">
         <li><a href="#company" data-i18n="nav1">Unternehmen</a></li>
@@ -527,7 +535,7 @@ form.is-sent .form-ok{display:block}
 <section class="knot" id="knot" aria-labelledby="kn-h">
   <canvas id="knotCanvas" aria-hidden="true"></canvas>
   <div class="wrap knot-ui">
-    <h2 class="display knot-title" id="kn-h">Knot Washed<sup>®</sup></h2>
+    <div class="knot-head"><h2 class="display knot-title" id="kn-h">Knot Washed<sup>®</sup></h2><img class="knot-logo" src="assets/knot-washed-logo-white.png" alt="" width="210" height="106"></div>
     <div class="knot-steps" aria-live="polite">
       <div class="kstep is-on" data-k="0">
         <h3 class="h3" data-i18n="k0h">Konventionell: Bimsstein.</h3>
@@ -575,7 +583,7 @@ form.is-sent .form-ok{display:block}
       <div class="label-stage">
         <div class="label" id="careLabel">
           <span class="eyelet" data-thread-anchor="B1"></span>
-          <h3>Knot<br>Washed®</h3>
+          <h3><img src="assets/knot-washed-logo.png" alt="Knot Washed®" width="210" height="106"></h3>
           <p class="sub" data-i18n="lblSub">Recycelte Knoten statt Bimsstein</p>
           <dl>
             <div><dt data-i18n="m1">Wasser</dt><dd>−50%</dd></div>
@@ -710,7 +718,7 @@ form.is-sent .form-ok{display:block}
 
 <footer class="foot">
   <div class="wrap">
-    <p class="foot-mark" aria-hidden="true">LE FA<span class="xx">XX</span></p>
+    <div class="foot-brand"><img src="assets/lefaxx-logo.png" alt="Le Faxx Jeans" width="234" height="106" loading="lazy"><img src="assets/knot-washed-logo-white.png" alt="Knot Washed" width="210" height="106" loading="lazy"></div>
     <div class="foot-grid">
       <div><h4>Istanbul · HQ</h4><p data-i18n="adr1">Adresse folgt<br>İstanbul, Türkiye</p></div>
       <div><h4 data-i18n="fFac">Sivas · Fabrik</h4><p data-i18n="adr2">Adresse folgt<br>Sivas, Türkiye</p></div>
