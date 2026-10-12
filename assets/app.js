@@ -4,7 +4,7 @@ const FINE = matchMedia('(pointer: fine)').matches;
 
 /* ================= i18n ================= */
 const I18N = {
-de:{kMore:"Alles über Knot Washed®",ph0:"Bimsstein",ph1:"Knoten",ph2:"Die Hälfte",phAria:"Phasen der Knot-Washed-Demo",cb1:"Material",cb2:"Vergleich",cb3:"Einsatz",skip:"Zum Inhalt springen",navAria:"Hauptnavigation",nav1:"Unternehmen",nav2:"Produktion",nav3:"Knot Washed®",nav4:"Produkte",nav5:"Kontakt",cta:"Projekt anfragen",
+de:{cS1:"Abb. 2 — Köperbindung, Denim (Platzhalter)",cS2:"Abb. 3 — Denimlagen zum Zuschnitt (Platzhalter)",cS3:"Abb. 4 — Industrienähmaschine (Platzhalter)",cS4:"Abb. 5 — Waschtrommel (Platzhalter)",cS5:"Abb. 6 — Gewaschene Jeans (Platzhalter)",cS6:"Abb. 7 — Kartons im Lager (Platzhalter)",kCap:"Abb. 8 — Stein, Knoten, Trommel (Platzhalter)",cP1:"Abb. 9 — Jeans (Platzhalter)",cP2:"Abb. 10 — Jacke (Platzhalter)",cP3:"Abb. 11 — Overshirt (Platzhalter)",cP4:"Abb. 12 — Non-Denim (Platzhalter)",cP5:"Abb. 13 — Private Label (Platzhalter)",cL1:"Abb. 14 — Istanbul, Bosporus (Platzhalter)",cL2:"Abb. 15 — Fabrikgebäude, nicht das Le-Faxx-Werk (Platzhalter)",facts:"Seit 2000 · 600+ Mitarbeitende · 150.000 Teile pro Monat · Istanbul &amp; Sivas",cap0:"Abb. 1 — Konfektion (Platzhaltervideo)",kImg0:"Graue Steinbrocken",kImg1:"Blaue verknotete Seile",kImg2:"Blick in eine Waschtrommel",kMore:"Alles über Knot Washed®",ph0:"Bimsstein",ph1:"Knoten",ph2:"Die Hälfte",phAria:"Phasen der Knot-Washed-Demo",cb1:"Material",cb2:"Vergleich",cb3:"Einsatz",skip:"Zum Inhalt springen",navAria:"Hauptnavigation",nav1:"Unternehmen",nav2:"Produktion",nav3:"Knot Washed®",nav4:"Produkte",nav5:"Kontakt",cta:"Projekt anfragen",
 h1a:"Vom Ballen",h1b:"bis zum Karton.",h1c:"In eigener Hand.",
 heroSub:"Le Faxx fertigt Premium-Denim für internationale Modemarken. Eigene Fabrik in Sivas, eigene Wäscherei, eigene Waschtechnologie: Knot Washed®.",
 cta2:"Knot Washed® ansehen",spec1:"am Markt seit",spec2:"Mitarbeitende",spec3:"Teile pro Monat",spec4:"Istanbul HQ · Fabrik Sivas",
@@ -22,7 +22,7 @@ o1:"Istanbul · HQ",o2:"Sivas · Fabrik",o4:"Eigene Wäscherei",o6:"Weltweit",
 alt1:"Nahaufnahme von blauem Denim mit Köperbindung",alt2:"Lagen von Denimstoff, gestapelt zum Zuschnitt",alt3:"Nähfuß einer Industrienähmaschine auf dunklem Stoff",alt4:"Blick in die Edelstahltrommel einer Waschmaschine",alt5:"Gefaltete Jeans in verschiedenen Waschungen",alt6:"Kartons auf Palettenregalen im Lager",
 k0h:"Konventionell: Bimsstein.",k0p:"Für den Used-Look werden Jeans seit Jahrzehnten mit Bimsstein gewaschen. Der Stein zerfällt in der Trommel, das Wasser wird zu Schlamm und muss ständig erneuert werden.",
 k1h:"Unsere Antwort: Knoten.",k1p:"Knot Washed® ersetzt den Stein durch Knoten aus recyceltem Kunststoff. Entwickelt bei Le Faxx, im Einsatz in unserer Wäscherei.",
-k2h:"Die Hälfte.",k2p:"Gleicher Look, halber Verbrauch: 50 % weniger Wasser, 50 % weniger Energie, 50 % weniger CO₂. Jede zweite Wassereinheit, die Sie hier sehen, wird gar nicht erst verbraucht.",
+k2h:"Die Hälfte.",k2p:"Gleicher Look, halber Verbrauch: 50 % weniger Wasser, 50 % weniger Energie, 50 % weniger CO₂.",
 m1:"Wasser",m2:"Energie",cmpA:"Bimsstein",cmpAria:"Vergleich zwischen Bimssteinwäsche und Knot Washed",kNote:"Werte relativ zur Bimssteinwäsche",
 careH:"Nachhaltigkeit, die auf dem Etikett steht.",careP:"Knot Washed® ist kein Zertifikat, das wir eingekauft haben, sondern ein Verfahren, das wir selbst entwickelt haben. Ihre Kollektion trägt den Unterschied messbar mit sich.",
 cp1:"Knoten aus recyceltem Kunststoff statt Bimsstein",cp2:"Alle Werte relativ zur konventionellen Bimssteinwäsche",cp3:"Entwickelt und eingesetzt in der eigenen Wäscherei",careCta:"Zur Nachhaltigkeit",lblSub:"Recycelte Knoten statt Bimsstein",
@@ -38,7 +38,7 @@ eReq:"Bitte ausfüllen.",eMail:"Bitte eine gültige E-Mail-Adresse eingeben, z. 
 okH:"Danke. Der Faden ist gelegt.",okP:"Ihre Anfrage ist angekommen. In der Live-Version meldet sich ein Ansprechpartner aus unserer Entwicklung bei Ihnen.",
 adr1:"Adresse folgt<br>İstanbul, Türkiye",adr2:"Adresse folgt<br>Sivas, Türkiye",fFac:"Sivas · Fabrik",fNav:"Seiten",fLegal:"Rechtliches",imp:"Impressum",priv:"Datenschutz",tm:"ist eine eingetragene Marke von Le Faxx.",draft:"Pitch-Entwurf · Platzhalterbilder",title:"Le Faxx Jeans · Denim in eigener Hand"},
 
-en:{kMore:"All about Knot Washed®",ph0:"Pumice",ph1:"Knots",ph2:"Half",phAria:"Phases of the Knot Washed demo",cb1:"Material",cb2:"Baseline",cb3:"In use",skip:"Skip to content",navAria:"Main navigation",nav1:"Company",nav2:"Manufacturing",nav3:"Knot Washed®",nav4:"Products",nav5:"Contact",cta:"Start a project",
+en:{cS1:"Fig. 2 — Twill weave, denim (placeholder)",cS2:"Fig. 3 — Denim plies ready for cutting (placeholder)",cS3:"Fig. 4 — Industrial sewing machine (placeholder)",cS4:"Fig. 5 — Washing drum (placeholder)",cS5:"Fig. 6 — Washed jeans (placeholder)",cS6:"Fig. 7 — Cartons in the warehouse (placeholder)",kCap:"Fig. 8 — Stone, knots, drum (placeholder)",cP1:"Fig. 9 — Jeans (placeholder)",cP2:"Fig. 10 — Jacket (placeholder)",cP3:"Fig. 11 — Overshirt (placeholder)",cP4:"Fig. 12 — Non-denim (placeholder)",cP5:"Fig. 13 — Private label (placeholder)",cL1:"Fig. 14 — Istanbul, Bosphorus (placeholder)",cL2:"Fig. 15 — Factory building, not the Le Faxx plant (placeholder)",facts:"Since 2000 · 600+ employees · 150,000 pieces per month · Istanbul &amp; Sivas",cap0:"Fig. 1 — Garment making (placeholder video)",kImg0:"Grey stone fragments",kImg1:"Blue knotted ropes",kImg2:"Inside a washing drum",kMore:"All about Knot Washed®",ph0:"Pumice",ph1:"Knots",ph2:"Half",phAria:"Phases of the Knot Washed demo",cb1:"Material",cb2:"Baseline",cb3:"In use",skip:"Skip to content",navAria:"Main navigation",nav1:"Company",nav2:"Manufacturing",nav3:"Knot Washed®",nav4:"Products",nav5:"Contact",cta:"Start a project",
 h1a:"From the bolt",h1b:"to the carton.",h1c:"All in-house.",
 heroSub:"Le Faxx manufactures premium denim for international fashion brands. Our own factory in Sivas, our own laundry, our own washing technology: Knot Washed®.",
 cta2:"See Knot Washed®",spec1:"in business since",spec2:"employees",spec3:"pieces per month",spec4:"Istanbul HQ · Sivas factory",
@@ -56,7 +56,7 @@ o1:"Istanbul · HQ",o2:"Sivas · Factory",o4:"In-house laundry",o6:"Worldwide",
 alt1:"Close-up of blue twill denim",alt2:"Plies of denim fabric stacked for cutting",alt3:"Industrial sewing machine foot on dark fabric",alt4:"Inside the stainless steel drum of a washing machine",alt5:"Folded jeans in different washes",alt6:"Cartons on pallet racks in a warehouse",
 k0h:"Conventional: pumice stone.",k0p:"For decades, the worn-in look has been achieved by washing jeans with pumice. The stone breaks down in the drum, the water turns to sludge and has to be replaced constantly.",
 k1h:"Our answer: knots.",k1p:"Knot Washed® replaces the stone with knots made from recycled plastic. Developed by Le Faxx and in use in our own laundry.",
-k2h:"Half.",k2p:"Same look, half the consumption: 50% less water, 50% less energy, 50% less CO₂. Every second drop you see here is never used in the first place.",
+k2h:"Half.",k2p:"Same look, half the consumption: 50% less water, 50% less energy, 50% less CO₂.",
 m1:"Water",m2:"Energy",cmpA:"Pumice",cmpAria:"Comparison between pumice washing and Knot Washed",kNote:"Values relative to pumice washing",
 careH:"Sustainability you can put on the label.",careP:"Knot Washed® is not a certificate we bought. It is a process we developed ourselves, and your collection carries the difference with it, measurably.",
 cp1:"Knots made from recycled plastic instead of pumice",cp2:"All figures relative to conventional pumice washing",cp3:"Developed and used in our own laundry",careCta:"Sustainability",lblSub:"Recycled knots instead of pumice",
@@ -72,7 +72,7 @@ eReq:"Please fill this in.",eMail:"Please enter a valid email address, e.g. name
 okH:"Thank you. The thread is laid.",okP:"Your inquiry has arrived. In the live version, someone from our development team will get back to you.",
 adr1:"Address to follow<br>İstanbul, Türkiye",adr2:"Address to follow<br>Sivas, Türkiye",fFac:"Sivas · Factory",fNav:"Pages",fLegal:"Legal",imp:"Imprint",priv:"Privacy",tm:"is a registered trademark of Le Faxx.",draft:"Pitch draft · placeholder images",title:"Le Faxx Jeans · Denim, all in-house"},
 
-tr:{kMore:"Knot Washed® hakkında her şey",ph0:"Süngertaşı",ph1:"Düğümler",ph2:"Yarısı",phAria:"Knot Washed demosunun aşamaları",cb1:"Malzeme",cb2:"Kıyas",cb3:"Kullanım",skip:"İçeriğe geç",navAria:"Ana menü",nav1:"Kurumsal",nav2:"Üretim",nav3:"Knot Washed®",nav4:"Ürünler",nav5:"İletişim",cta:"Proje başlatın",
+tr:{cS1:"Şek. 2 — Dimi örgü, denim (temsili)",cS2:"Şek. 3 — Kesime hazır denim katları (temsili)",cS3:"Şek. 4 — Endüstriyel dikiş makinesi (temsili)",cS4:"Şek. 5 — Yıkama tamburu (temsili)",cS5:"Şek. 6 — Yıkanmış kotlar (temsili)",cS6:"Şek. 7 — Depoda koliler (temsili)",kCap:"Şek. 8 — Taş, düğüm, tambur (temsili)",cP1:"Şek. 9 — Kot pantolon (temsili)",cP2:"Şek. 10 — Ceket (temsili)",cP3:"Şek. 11 — Gömlek ceket (temsili)",cP4:"Şek. 12 — Denim dışı (temsili)",cP5:"Şek. 13 — Private label (temsili)",cL1:"Şek. 14 — İstanbul, Boğaz (temsili)",cL2:"Şek. 15 — Fabrika binası, Le Faxx tesisi değil (temsili)",facts:"2000'den beri · 600+ çalışan · Ayda 150.000 parça · İstanbul &amp; Sivas",cap0:"Şek. 1 — Konfeksiyon (temsili video)",kImg0:"Gri taş parçaları",kImg1:"Mavi düğümlü halatlar",kImg2:"Bir yıkama tamburunun içi",kMore:"Knot Washed® hakkında her şey",ph0:"Süngertaşı",ph1:"Düğümler",ph2:"Yarısı",phAria:"Knot Washed demosunun aşamaları",cb1:"Malzeme",cb2:"Kıyas",cb3:"Kullanım",skip:"İçeriğe geç",navAria:"Ana menü",nav1:"Kurumsal",nav2:"Üretim",nav3:"Knot Washed®",nav4:"Ürünler",nav5:"İletişim",cta:"Proje başlatın",
 h1a:"Kumaş topundan",h1b:"koliye kadar.",h1c:"Hepsi bizde.",
 heroSub:"Le Faxx, uluslararası moda markaları için premium denim üretir. Sivas'ta kendi fabrikamız, kendi yıkamahanemiz ve kendi yıkama teknolojimiz: Knot Washed®.",
 cta2:"Knot Washed®'i keşfedin",spec1:"yılından beri",spec2:"çalışan",spec3:"aylık parça",spec4:"İstanbul merkez · Sivas fabrika",
@@ -90,7 +90,7 @@ o1:"İstanbul · Merkez",o2:"Sivas · Fabrika",o4:"Kendi yıkamahanemiz",o6:"Dü
 alt1:"Dimi örgülü mavi denimin yakın çekimi",alt2:"Kesim için katlanmış denim kumaş katları",alt3:"Koyu kumaş üzerinde endüstriyel dikiş makinesi ayağı",alt4:"Bir yıkama makinesinin paslanmaz çelik tamburunun içi",alt5:"Farklı yıkamalarda katlanmış kot pantolonlar",alt6:"Depoda palet raflarında koliler",
 k0h:"Geleneksel: süngertaşı.",k0p:"Eskitilmiş görünüm için kotlar onlarca yıldır süngertaşıyla yıkanır. Taş tamburda parçalanır, su çamura döner ve sürekli yenilenmesi gerekir.",
 k1h:"Bizim cevabımız: düğümler.",k1p:"Knot Washed®, taşın yerine geri dönüştürülmüş plastikten düğümler kullanır. Le Faxx tarafından geliştirildi, yıkamahanemizde kullanılıyor.",
-k2h:"Yarısı.",k2p:"Aynı görünüm, yarı tüketim: %50 daha az su, %50 daha az enerji, %50 daha az CO₂. Burada gördüğünüz her iki damladan biri hiç kullanılmıyor.",
+k2h:"Yarısı.",k2p:"Aynı görünüm, yarı tüketim: %50 daha az su, %50 daha az enerji, %50 daha az CO₂.",
 m1:"Su",m2:"Enerji",cmpA:"Süngertaşı",cmpAria:"Süngertaşı yıkama ile Knot Washed karşılaştırması",kNote:"Değerler süngertaşı yıkamaya göre",
 careH:"Etikete yazılabilen sürdürülebilirlik.",careP:"Knot Washed® satın alınmış bir sertifika değil, kendi geliştirdiğimiz bir yöntem. Koleksiyonunuz bu farkı ölçülebilir biçimde taşır.",
 cp1:"Süngertaşı yerine geri dönüştürülmüş plastik düğümler",cp2:"Tüm değerler geleneksel süngertaşı yıkamaya göredir",cp3:"Kendi yıkamahanemizde geliştirildi ve kullanılıyor",careCta:"Sürdürülebilirlik",lblSub:"Süngertaşı yerine geri dönüştürülmüş düğümler",
@@ -107,6 +107,14 @@ okH:"Teşekkürler. İplik atıldı.",okP:"Talebiniz ulaştı. Canlı sürümde 
 adr1:"Adres eklenecek<br>İstanbul, Türkiye",adr2:"Adres eklenecek<br>Sivas, Türkiye",fFac:"Sivas · Fabrika",fNav:"Sayfalar",fLegal:"Yasal",imp:"Künye",priv:"Gizlilik",tm:"Le Faxx'in tescilli markasıdır.",draft:"Pitch taslağı · temsili görseller",title:"Le Faxx Jeans · Hepsi bizde"}
 };
 if(window.PAGE_I18N){for(const l in PAGE_I18N){Object.assign(I18N[l],PAGE_I18N[l]);}}
+function kernW(){
+  document.querySelectorAll('.h2,.display,.knot-title,.h3').forEach(h=>{
+    const w=document.createTreeWalker(h,NodeFilter.SHOW_TEXT); const nodes=[]; while(w.nextNode()) nodes.push(w.currentNode);
+    nodes.forEach(t=>{ if(!/W(?=[aeo])/.test(t.data)||t.parentNode.classList.contains('kern-w')) return;
+      const f=document.createDocumentFragment(); t.data.split(/(W(?=[aeo]))/).forEach(part=>{ if(part==='W'){const sp=document.createElement('span'); sp.className='kern-w'; sp.textContent='W'; f.appendChild(sp);} else if(part) f.appendChild(document.createTextNode(part)); });
+      t.parentNode.replaceChild(f,t); });
+  });
+}
 let LANG='de';
 function fmt(n){return n.toLocaleString(LANG==='en'?'en-US':(LANG==='tr'?'tr-TR':'de-DE'))}
 function setLang(l, initial){
@@ -119,6 +127,7 @@ function setLang(l, initial){
   document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.lang===l)));
   document.querySelectorAll('.hero .spec li:nth-child(3) b').forEach(b=>b.textContent=fmt(150000));
   try{localStorage.setItem('lfx-lang',l)}catch(e){}
+  kernW();
   if(!initial){ countUp(true); window.dispatchEvent(new Event('lfx:relayout')); }
   window.dispatchEvent(new CustomEvent('lfx:lang',{detail:l}));
 }
@@ -171,7 +180,7 @@ addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});
 if(!REDUCED){
   gsap.from('.hero h1 .ln>span',{yPercent:110,duration:1.3,ease:'expo.out',stagger:.12,delay:.15});
   gsap.from('.hero-sub,.hero-ctas,.spec li',{opacity:0,y:18,duration:1,ease:'expo.out',stagger:.07,delay:.6});
-  gsap.to('.hero-media',{yPercent:18,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
+  gsap.to('.hero-media',{yPercent:10,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
 }
 
 /* ================= reveals ================= */
@@ -182,14 +191,6 @@ if(!REDUCED){
 }
 
 
-/* ================= magnetic buttons ================= */
-if(FINE && !REDUCED){
-  document.querySelectorAll('.magnetic').forEach(b=>{
-    const xTo=gsap.quickTo(b,'x',{duration:.6,ease:'power3.out'}), yTo=gsap.quickTo(b,'y',{duration:.6,ease:'power3.out'});
-    b.addEventListener('mousemove',e=>{const r=b.getBoundingClientRect(); xTo((e.clientX-r.left-r.width/2)*.28); yTo((e.clientY-r.top-r.height/2)*.38);});
-    b.addEventListener('mouseleave',()=>{xTo(0);yTo(0)});
-  });
-}
 
 /* ================= THE THREAD ================= */
 class Thread{
@@ -201,7 +202,7 @@ class Thread{
       .filter(el=>el.offsetParent!==null || el.getClientRects().length)
       .map(el=>{const r=el.getBoundingClientRect(); let x=r.left+r.width/2-hb.left, y=r.top+r.height/2-hb.top;
         if(el.tagName==='A'||el.tagName==='BUTTON'){y=r.bottom-hb.top;}
-        if(innerWidth<821 && el.hasAttribute('data-thread-m')){ if(el.dataset.threadAnchor==='A0'){ x=hb.width/2; } else x=3; }
+        if(innerWidth<821 && el.hasAttribute('data-thread-m')){ x = el.dataset.threadAnchor==='A0' ? r.right-hb.left-2 : 3; }
         return {x,y,el};});
   }
   build(){
@@ -243,11 +244,6 @@ ScrollTrigger.addEventListener('refresh',layoutThreads);
 addEventListener('load',()=>ScrollTrigger.refresh());
 document.fonts && document.fonts.ready.then(()=>ScrollTrigger.refresh());
 
-/* ================= care label sway ================= */
-if(!REDUCED){
-  const lbl=document.getElementById('careLabel'); let v=0,a=0,lastS=curScroll();
-  if(lbl) gsap.ticker.add(()=>{const s=curScroll(); const vel=s-lastS; lastS=s; v+= (-vel*.06 - a*.08); v*=.86; a+=v; a=Math.max(-9,Math.min(9,a)); lbl.style.transform=`rotate(${a.toFixed(3)}deg)`;});
-}
 
 
 /* ================= form ================= */
@@ -265,33 +261,4 @@ if(!REDUCED){
   });
 })();
 
-/* ================= warp threads (contact) ================= */
-(function(){
-  const c=document.getElementById('warp'); if(!c) return; const ctx=c.getContext('2d'); let W,H,dpr,mx=-9999,my=-9999,tx=-9999,ty=-9999,running=false,t=0;
-  function size(){dpr=Math.min(2,devicePixelRatio||1); W=c.clientWidth; H=c.clientHeight; c.width=W*dpr; c.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);}
-  function draw(){
-    t+=0.008; mx+=(tx-mx)*.08; my+=(ty-my)*.08;
-    ctx.clearRect(0,0,W,H);
-    const gap=W<700?14:11, n=Math.ceil(W/gap)+1;
-    for(let i=0;i<n;i++){
-      const x0=i*gap; ctx.beginPath();
-      const hue = i%7===0;
-      ctx.strokeStyle = hue ? 'rgba(201,154,91,.32)' : 'rgba(142,163,207,'+(.08+.06*Math.sin(i*1.7))+')';
-      ctx.lineWidth = hue?1.2:1;
-      for(let y=0;y<=H;y+=12){
-        const dx=x0-mx, dy=y-my, dist=Math.sqrt(dx*dx+dy*dy), R=170;
-        let off=Math.sin(y*.012+t+i*.35)*2.2;
-        if(dist<R){const f=(1-dist/R); off+= (dx>=0?1:-1)*f*f*46;}
-        y===0?ctx.moveTo(x0+off,y):ctx.lineTo(x0+off,y);
-      }
-      ctx.stroke();
-    }
-    if(running && !REDUCED) requestAnimationFrame(draw);
-  }
-  size(); addEventListener('resize',size);
-  const sec=c.parentElement;
-  sec.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect(); tx=e.clientX-r.left; ty=e.clientY-r.top;});
-  sec.addEventListener('pointerleave',()=>{tx=-9999;ty=-9999});
-  new IntersectionObserver(es=>{es.forEach(en=>{running=en.isIntersecting; if(running) requestAnimationFrame(draw);})}).observe(c);
-  if(REDUCED) draw();
-})();
+
